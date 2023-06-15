@@ -1,0 +1,51 @@
+.app.dark{
+    background-color: black;
+    color: whitesmoke;
+   .table{
+    background-color: black;
+    .tableCell{
+        color: whitesmoke;
+    }
+   }
+   .top{
+    .logo{
+        color: white;
+    }
+   }
+   .sidebar{
+    li{
+        span{
+            color: white;
+        }
+    }
+   }
+   .navbar{
+    color: white;
+    .search{
+        border-color: gray;
+        input{
+            color: white;
+        }
+    }
+   }
+   .datatable{
+    .dataGrid{
+        color: white;
+        .viewButton, .deleteButton{
+            color: white;
+            background-color: gray;
+        }
+            
+            &:hover{
+                stroke: white;
+            }
+    }
+    color: white;
+   }
+   .new{
+    input{
+        background-color: transparent;
+        color: white;
+    }
+   }
+}
